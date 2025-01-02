@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PyWall Lite</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #00bcd4; /* Turkuaz */
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+         .block-list, .add-form {
+              width: calc(50% - 10px); /* Ekranın yarısı genişliğinde */
+             padding: 20px;
+              border: 1px solid #333;
+              background-color: #262626;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+              border-radius: 8px;
+              margin-bottom: 20px;
+        }
+          @media (max-width: 768px) {
+            .block-list, .add-form {
+                width: 100%; /* Küçük ekranlarda tam genişlik */
+            }
+        }
+       .container > div {
+            width: 100%; /* Kutuları tam genişlik yapar */
+            box-sizing: border-box; /* İç padding ve border'ın genişliğe dahil olmasını sağlar */
+             padding-left: 10px; /* Sol boşluk */
+             padding-right: 10px;/* Sağ boşluk */
+         }
+         .block-list h2 {
+            margin-bottom: 15px;
+            color: #4caf50; /* Açık Yeşil */
+           border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+         }
+          .add-form h3{
+             margin-bottom: 15px;
+             color: #4caf50;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+          }
+        .block-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .block-list li {
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #333;
+        }
+        .block-list li:last-child {
+            border-bottom: none;
+         }
+        input[type=text],
+        input[type=number] {
+             margin: 5px 0;
+             padding: 10px;
+             background-color: #444;
+             border: 1px solid #555;
+             color: #fff;
+             border-radius: 5px;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #00bcd4; /* Turkuaz */
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0097a7; /* Daha Koyu Turkuaz */
+        }
+         button[style*="background-color: #f44336;"] {background-color: #f44336;}
+        button[style*="background-color: #f44336;"]:hover { background-color: #d32f2f; }
+        a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+             color: #00bcd4;
+             text-decoration: none;
+        }
+        a:hover {
+           text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>PyWall Lite</h1>
+    
+    <div class="container">
+        <div class="block-list">
+            <h2>Blocked IPs</h2>
+            <ul>
+                {% for ip in blocked_ips %}
+                    <li>
+                        {{ ip }}
+                        <form action="/remove_ip" method="post" style="display: inline;">
+                            <input type="hidden" name="ip" value="{{ ip }}">
+                            <button type="submit" style="background-color: #f44336;">Remove</button>
+                         </form>
+                     </li>
+                {% endfor %}
+            </ul>
+            <form class="add-form" action="/add_ip" method="post">
+                <h3>Add New IP</h3>
+                <input type="text" name="ip" placeholder="IP Address" required>
+                <button type="submit">Add IP</button>
+            </form>
+        </div>
+
+        <div class="block-list">
+            <h2>Blocked Ports</h2>
+            <ul>
+                 {% for port in blocked_ports %}
+                     <li>
+                        {{ port }}
+                        <form action="/remove_port" method="post" style="display: inline;">
+                            <input type="hidden" name="port" value="{{ port }}">
+                            <button type="submit" style="background-color: #f44336;">Remove</button>
+                        </form>
+                     </li>
+                 {% endfor %}
+            </ul>
+             <form class="add-form" action="/add_port" method="post">
+                <h3>Add New Port</h3>
+                <input type="number" name="port" placeholder="Port Number" required>
+                <button type="submit">Add Port</button>
+            </form>
+        </div>
+        
+        <div class="block-list">
+            <h2>Blocked Protocols</h2>
+            <ul>
+                {% for protocol in blocked_protocols %}
+                    <li>
+                        {{ protocol }}
+                        <form action="/remove_protocol" method="post" style="display: inline;">
+                            <input type="hidden" name="protocol" value="{{ protocol }}">
+                            <button type="submit" style="background-color: #f44336;">Remove</button>
+                        </form>
+                    </li>
+                {% endfor %}
+            </ul>
+             <form class="add-form" action="/add_protocol" method="post">
+                <h3>Add New Protocol</h3>
+                <input type="text" name="protocol" placeholder="Protocol (tcp, udp)" required>
+                <button type="submit">Add Protocol</button>
+            </form>
+         </div>
+        
+        <div class="block-list">
+            <h2>Block Rules</h2>
+            <ul>
+                 {% for rule in rules %}
+                    <li>
+                    {% if rule.ip %} IP : {{ rule.ip }} {% endif %}
+                    {% if rule.port %} Port : {{ rule.port }} {% endif %}
+                    {% if rule.protocol %} Protocol : {{ rule.protocol }} {% endif %}
+                    
+                    <form action="/remove_rule" method="post" style="display: inline;">
+                        <input type="hidden" name="ip" value="{{ rule.ip }}">
+                        <input type="hidden" name="port" value="{{ rule.port }}">
+                        <input type="hidden" name="protocol" value="{{ rule.protocol }}">
+                        <button type="submit" style="background-color: #f44336;">Remove</button>
+                     </form>
+                    </li>
+                {% endfor %}
+            </ul>
+            <form class="add-form" action="/add_rule" method="post">
+                <h3>Add New Rule</h3>
+                <input type="text" name="ip" placeholder="IP Address (regex)" >
+                <input type="number" name="port" placeholder="Port Number">
+                <input type="text" name="protocol" placeholder="Protocol (tcp, udp)">
+                <button type="submit">Add Rule</button>
+            </form>
+        </div>
+       
+    </div>
+    <a href="/logs" target="_blank">View Logs</a>
+</body>
+</html>
