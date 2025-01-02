@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PyWall Lite Logs</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        h1 { text-align: center; }
+        #log-container {
+            background-color: #f4f4f4;
+            padding: 10px;
+            overflow-y: scroll;
+            height: 300px; /* Sabit yükseklik */
+        }
+        #log-content {
+            white-space: pre-wrap; /* Satırların taşmasını engeller */
+            margin: 0;
+             padding: 0; /* pre etiketinin iç boşluğunu sıfırla */
+        }
+        a { display: block; margin-top: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>PyWall Lite Logs</h1>
+    <div id="log-container">
+        <pre id="log-content"></pre>
+    </div>
+    <a href="/">Back to Home</a>
+
+    <script>
+        const logContainer = document.getElementById('log-container');
+      
+        function fetchNewLogs() {
+            fetch('/get_new_logs')
+                .then(response => response.json())
+                .then(data => {
+                  const logContent = document.getElementById('log-content');
+                  if (data.logs.length > 0)
+                   {
+                    logContent.innerHTML = data.logs.join('\n');
+                    logContainer.scrollTop = logContainer.scrollHeight; // En alta kaydır
+                  }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+      //Her 2 saniyede bir yenile
+       setInterval(fetchNewLogs, 2000);
+      fetchNewLogs(); // Sayfa ilk yüklendiğinde logları getir.
+    </script>
+</body>
+</html>
