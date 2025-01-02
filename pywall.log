@@ -1,0 +1,743 @@
+2025-01-02 02:46:35,027 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 02:46:35,031 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 02:46:35,085 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 02:46:35,085 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 02:46:39,193 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 02:46:39,194 - INFO - Blocked Ports: [80]
+2025-01-02 02:46:39,194 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 02:46:39,216 - INFO - 127.0.0.1 - - [02/Jan/2025 02:46:39] "GET / HTTP/1.1" 200 -
+2025-01-02 02:46:44,671 - INFO - 127.0.0.1 - - [02/Jan/2025 02:46:44] "GET /logs HTTP/1.1" 200 -
+2025-01-02 02:46:52,495 - WARNING - Blocked connection from 192.168.1.56:40690 (IP Blocked, Protocol: tcp)
+2025-01-02 02:46:57,859 - INFO - 127.0.0.1 - - [02/Jan/2025 02:46:57] "GET /logs HTTP/1.1" 200 -
+2025-01-02 02:48:57,382 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 02:48:57,382 - INFO - Blocked Ports: [80]
+2025-01-02 02:48:57,382 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 02:48:57,382 - INFO - 192.168.1.56 - - [02/Jan/2025 02:48:57] "GET / HTTP/1.1" 200 -
+2025-01-02 02:49:05,243 - INFO - 127.0.0.1 - - [02/Jan/2025 02:49:05] "GET /logs HTTP/1.1" 200 -
+2025-01-02 02:59:52,179 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 02:59:52,183 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 02:59:52,262 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 02:59:52,262 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 02:59:54,507 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 02:59:54,507 - INFO - Blocked Ports: [80]
+2025-01-02 02:59:54,507 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 02:59:54,526 - INFO - 127.0.0.1 - - [02/Jan/2025 02:59:54] "GET / HTTP/1.1" 200 -
+2025-01-02 02:59:58,048 - INFO - 127.0.0.1 - - [02/Jan/2025 02:59:58] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:00:03,599 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:00:03,599 - INFO - Blocked Ports: [80]
+2025-01-02 03:00:03,599 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:00:03,599 - INFO - 192.168.1.56 - - [02/Jan/2025 03:00:03] "GET / HTTP/1.1" 200 -
+2025-01-02 03:00:07,194 - INFO - 127.0.0.1 - - [02/Jan/2025 03:00:07] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:00:11,026 - WARNING - Blocked connection from 192.168.1.56:40776 (IP Blocked, Protocol: tcp)
+2025-01-02 03:00:14,165 - INFO - 127.0.0.1 - - [02/Jan/2025 03:00:14] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:00:56,450 - INFO - 127.0.0.1 - - [02/Jan/2025 03:00:56] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:01:08,627 - INFO - 127.0.0.1 - - [02/Jan/2025 03:01:08] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:01:46,300 - INFO - Added port to blocked list: 5000
+2025-01-02 03:01:46,300 - INFO - 127.0.0.1 - - [02/Jan/2025 03:01:46] "[32mPOST /add_port HTTP/1.1[0m" 302 -
+2025-01-02 03:01:46,555 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:01:46,555 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:01:46,555 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:01:46,555 - INFO - 127.0.0.1 - - [02/Jan/2025 03:01:46] "GET / HTTP/1.1" 200 -
+2025-01-02 03:01:56,055 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:01:56,060 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:01:56,132 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:01:56,132 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:01:58,603 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:01:58,603 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:01:58,603 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:01:58,619 - INFO - 127.0.0.1 - - [02/Jan/2025 03:01:58] "GET / HTTP/1.1" 200 -
+2025-01-02 03:02:06,949 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:02:06,949 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:02:06,949 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:02:06,949 - INFO - 192.168.1.56 - - [02/Jan/2025 03:02:06] "GET / HTTP/1.1" 200 -
+2025-01-02 03:02:14,355 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:02:14,355 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:02:14,355 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:02:14,355 - INFO - 192.168.1.56 - - [02/Jan/2025 03:02:14] "GET / HTTP/1.1" 200 -
+2025-01-02 03:02:15,013 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:02:15,013 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:02:15,013 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:02:15,013 - INFO - 192.168.1.56 - - [02/Jan/2025 03:02:15] "GET / HTTP/1.1" 200 -
+2025-01-02 03:02:19,646 - INFO - 127.0.0.1 - - [02/Jan/2025 03:02:19] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:08:58,375 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:08:58,375 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:08:58,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:08:58,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:09:08,231 - WARNING - Blocked connection from 192.168.1.56:40806 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:09,262 - WARNING - Blocked connection from 192.168.1.56:40808 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:09,773 - WARNING - Blocked connection from 192.168.1.56:40810 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:10,146 - WARNING - Blocked connection from 192.168.1.56:40812 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:10,659 - WARNING - Blocked connection from 192.168.1.56:40814 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:11,328 - WARNING - Blocked connection from 192.168.1.56:40816 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:11,482 - WARNING - Blocked connection from 192.168.1.56:40818 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:12,123 - WARNING - Blocked connection from 192.168.1.56:40820 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:13,124 - WARNING - Blocked connection from 192.168.1.56:40822 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:13,227 - WARNING - Blocked connection from 192.168.1.56:40824 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:13,839 - WARNING - Blocked connection from 192.168.1.56:40826 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:14,460 - WARNING - Blocked connection from 192.168.1.56:40828 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:15,075 - WARNING - Blocked connection from 192.168.1.56:40830 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:15,899 - WARNING - Blocked connection from 192.168.1.56:40832 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:16,420 - WARNING - Blocked connection from 192.168.1.56:40834 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:17,448 - WARNING - Blocked connection from 192.168.1.56:40836 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:18,160 - WARNING - Blocked connection from 192.168.1.56:40838 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:18,676 - WARNING - Blocked connection from 192.168.1.56:40840 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:19,507 - WARNING - Blocked connection from 192.168.1.56:40842 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:20,017 - WARNING - Blocked connection from 192.168.1.56:40844 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:20,736 - WARNING - Blocked connection from 192.168.1.56:40846 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:21,358 - WARNING - Blocked connection from 192.168.1.56:40848 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:22,076 - WARNING - Blocked connection from 192.168.1.56:40850 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:22,896 - WARNING - Blocked connection from 192.168.1.56:40852 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:23,701 - WARNING - Blocked connection from 192.168.1.56:40854 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:24,071 - WARNING - Blocked connection from 192.168.1.56:40856 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:24,764 - WARNING - Blocked connection from 192.168.1.56:40858 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:25,564 - WARNING - Blocked connection from 192.168.1.56:40860 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:26,132 - WARNING - Blocked connection from 192.168.1.56:40862 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:27,585 - WARNING - Blocked connection from 192.168.1.56:40864 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:28,456 - WARNING - Blocked connection from 192.168.1.56:40866 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:28,964 - WARNING - Blocked connection from 192.168.1.56:40868 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:29,837 - WARNING - Blocked connection from 192.168.1.56:40870 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:30,466 - WARNING - Blocked connection from 192.168.1.56:40872 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:31,183 - WARNING - Blocked connection from 192.168.1.56:40874 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:32,044 - WARNING - Blocked connection from 192.168.1.56:40876 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:32,634 - WARNING - Blocked connection from 192.168.1.56:40878 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:33,786 - WARNING - Blocked connection from 192.168.1.56:40882 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:34,097 - WARNING - Blocked connection from 192.168.1.56:40884 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:34,733 - WARNING - Blocked connection from 192.168.1.56:40886 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:35,536 - WARNING - Blocked connection from 192.168.1.56:40888 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:40,409 - WARNING - Blocked connection from 192.168.1.56:40892 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:41,019 - WARNING - Blocked connection from 192.168.1.56:40894 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:41,876 - WARNING - Blocked connection from 192.168.1.56:40896 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:42,322 - WARNING - Blocked connection from 192.168.1.56:40898 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:43,154 - WARNING - Blocked connection from 192.168.1.56:40900 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:43,830 - WARNING - Blocked connection from 192.168.1.56:40902 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:45,161 - WARNING - Blocked connection from 192.168.1.56:40904 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:46,017 - WARNING - Blocked connection from 192.168.1.56:40906 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:46,643 - WARNING - Blocked connection from 192.168.1.56:40908 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:47,676 - WARNING - Blocked connection from 192.168.1.56:40910 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:48,076 - WARNING - Blocked connection from 192.168.1.56:40912 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:48,895 - WARNING - Blocked connection from 192.168.1.56:40914 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:49,613 - WARNING - Blocked connection from 192.168.1.56:40916 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:50,337 - WARNING - Blocked connection from 192.168.1.56:40918 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:51,053 - WARNING - Blocked connection from 192.168.1.56:40920 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:51,676 - WARNING - Blocked connection from 192.168.1.56:40922 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:52,204 - WARNING - Blocked connection from 192.168.1.56:40924 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:53,205 - WARNING - Blocked connection from 192.168.1.56:40926 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:53,522 - WARNING - Blocked connection from 192.168.1.56:40928 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:54,238 - WARNING - Blocked connection from 192.168.1.56:40930 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:54,896 - WARNING - Blocked connection from 192.168.1.56:40932 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:55,577 - WARNING - Blocked connection from 192.168.1.56:40934 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:57,370 - WARNING - Blocked connection from 192.168.1.56:40936 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:57,861 - WARNING - Blocked connection from 192.168.1.56:40938 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:58,969 - WARNING - Blocked connection from 192.168.1.56:40940 (IP Blocked, Protocol: tcp)
+2025-01-02 03:09:59,484 - WARNING - Blocked connection from 192.168.1.56:40942 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:00,605 - WARNING - Blocked connection from 192.168.1.56:40944 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:00,921 - WARNING - Blocked connection from 192.168.1.56:40946 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:01,455 - WARNING - Blocked connection from 192.168.1.56:40948 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:02,255 - WARNING - Blocked connection from 192.168.1.56:40950 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:02,974 - WARNING - Blocked connection from 192.168.1.56:40952 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:03,451 - WARNING - Blocked connection from 192.168.1.56:40954 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:04,107 - WARNING - Blocked connection from 192.168.1.56:40956 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:04,721 - WARNING - Blocked connection from 192.168.1.56:40958 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:05,443 - WARNING - Blocked connection from 192.168.1.56:40960 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:05,871 - WARNING - Blocked connection from 192.168.1.56:40962 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:06,583 - WARNING - Blocked connection from 192.168.1.56:40964 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:07,399 - WARNING - Blocked connection from 192.168.1.56:40966 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:07,911 - WARNING - Blocked connection from 192.168.1.56:40968 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:08,574 - WARNING - Blocked connection from 192.168.1.56:40970 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:09,451 - WARNING - Blocked connection from 192.168.1.56:40972 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:11,674 - WARNING - Blocked connection from 192.168.1.56:40974 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:31,986 - WARNING - Blocked connection from 192.168.1.56:40978 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:32,537 - WARNING - Blocked connection from 192.168.1.56:40980 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:33,127 - WARNING - Blocked connection from 192.168.1.56:40982 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:33,610 - WARNING - Blocked connection from 192.168.1.56:40984 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:34,330 - WARNING - Blocked connection from 192.168.1.56:40986 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:34,749 - WARNING - Blocked connection from 192.168.1.56:40988 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:35,354 - WARNING - Blocked connection from 192.168.1.56:40990 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:36,121 - WARNING - Blocked connection from 192.168.1.56:40992 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:36,546 - WARNING - Blocked connection from 192.168.1.56:40994 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:37,122 - WARNING - Blocked connection from 192.168.1.56:40996 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:37,725 - WARNING - Blocked connection from 192.168.1.56:40998 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:38,245 - WARNING - Blocked connection from 192.168.1.56:41000 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:38,877 - WARNING - Blocked connection from 192.168.1.56:41002 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:39,474 - WARNING - Blocked connection from 192.168.1.56:41004 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:40,025 - WARNING - Blocked connection from 192.168.1.56:41006 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:40,710 - WARNING - Blocked connection from 192.168.1.56:41008 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:41,427 - WARNING - Blocked connection from 192.168.1.56:41010 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:41,954 - WARNING - Blocked connection from 192.168.1.56:41012 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:42,520 - WARNING - Blocked connection from 192.168.1.56:41014 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:44,515 - WARNING - Blocked connection from 192.168.1.56:41016 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:45,131 - WARNING - Blocked connection from 192.168.1.56:41018 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:46,988 - WARNING - Blocked connection from 192.168.1.56:41020 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:47,604 - WARNING - Blocked connection from 192.168.1.56:41022 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:48,631 - WARNING - Blocked connection from 192.168.1.56:41024 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:49,350 - WARNING - Blocked connection from 192.168.1.56:41026 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:50,185 - WARNING - Blocked connection from 192.168.1.56:41028 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:51,204 - WARNING - Blocked connection from 192.168.1.56:41030 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:52,020 - WARNING - Blocked connection from 192.168.1.56:41032 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:52,778 - WARNING - Blocked connection from 192.168.1.56:41034 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:53,365 - WARNING - Blocked connection from 192.168.1.56:41036 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:54,589 - WARNING - Blocked connection from 192.168.1.56:41038 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:55,214 - WARNING - Blocked connection from 192.168.1.56:41040 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:56,347 - WARNING - Blocked connection from 192.168.1.56:41042 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:57,035 - WARNING - Blocked connection from 192.168.1.56:41044 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:58,290 - WARNING - Blocked connection from 192.168.1.56:41046 (IP Blocked, Protocol: tcp)
+2025-01-02 03:10:59,015 - WARNING - Blocked connection from 192.168.1.56:41048 (IP Blocked, Protocol: tcp)
+2025-01-02 03:11:00,247 - WARNING - Blocked connection from 192.168.1.56:41050 (IP Blocked, Protocol: tcp)
+2025-01-02 03:11:00,775 - WARNING - Blocked connection from 192.168.1.56:41054 (IP Blocked, Protocol: tcp)
+2025-01-02 03:11:01,895 - WARNING - Blocked connection from 192.168.1.56:41056 (IP Blocked, Protocol: tcp)
+2025-01-02 03:11:02,722 - WARNING - Blocked connection from 192.168.1.56:41058 (IP Blocked, Protocol: tcp)
+2025-01-02 03:11:04,975 - WARNING - Blocked connection from 192.168.1.56:41060 (IP Blocked, Protocol: tcp)
+2025-01-02 03:11:06,016 - WARNING - Blocked connection from 192.168.1.56:41062 (IP Blocked, Protocol: tcp)
+2025-01-02 03:13:37,521 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:13:37,521 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:13:37,550 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:13:37,551 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:15:43,790 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:15:43,791 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:15:43,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:15:43,962 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:16:08,409 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:16:08,409 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:16:08,409 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:16:08,412 - INFO - 127.0.0.1 - - [02/Jan/2025 03:16:08] "GET / HTTP/1.1" 200 -
+2025-01-02 03:16:09,773 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:16:09,774 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:16:09,774 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:16:09,774 - INFO - 127.0.0.1 - - [02/Jan/2025 03:16:09] "GET / HTTP/1.1" 200 -
+2025-01-02 03:16:11,026 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:16:11,026 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:16:11,026 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:16:11,026 - INFO - 127.0.0.1 - - [02/Jan/2025 03:16:11] "GET / HTTP/1.1" 200 -
+2025-01-02 03:16:16,507 - INFO - 127.0.0.1 - - [02/Jan/2025 03:16:16] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:16:42,065 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:16:42,066 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:16:42,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:16:42,237 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:18:50,907 - INFO - 127.0.0.1 - - [02/Jan/2025 03:18:50] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:18:56,835 - WARNING - Blocked connection from 192.168.1.56:41070 (IP Blocked, Protocol: tcp)
+2025-01-02 03:18:58,879 - INFO - 127.0.0.1 - - [02/Jan/2025 03:18:58] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:21:21,211 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:21:21,212 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:21:21,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:21:21,390 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:21:27,358 - WARNING - Blocked connection from 192.168.1.56:41076 (IP Blocked, Protocol: tcp)
+2025-01-02 03:21:28,052 - WARNING - Blocked connection from 192.168.1.56:41078 (IP Blocked, Protocol: tcp)
+2025-01-02 03:21:28,940 - WARNING - Blocked connection from 192.168.1.56:41080 (IP Blocked, Protocol: tcp)
+2025-01-02 03:21:29,795 - WARNING - Blocked connection from 192.168.1.56:41082 (IP Blocked, Protocol: tcp)
+2025-01-02 03:21:30,611 - WARNING - Possible DoS attack from 192.168.1.56. Connection attempts exceeded limit (5)
+2025-01-02 03:21:30,612 - WARNING - Blocked connection from 192.168.1.56:41084 (DoS Protection, Protocol: tcp)
+2025-01-02 03:21:31,514 - WARNING - Possible DoS attack from 192.168.1.56. Connection attempts exceeded limit (5)
+2025-01-02 03:21:31,514 - WARNING - Blocked connection from 192.168.1.56:41086 (DoS Protection, Protocol: tcp)
+2025-01-02 03:21:32,549 - WARNING - Possible DoS attack from 192.168.1.56. Connection attempts exceeded limit (5)
+2025-01-02 03:21:32,549 - WARNING - Blocked connection from 192.168.1.56:41088 (DoS Protection, Protocol: tcp)
+2025-01-02 03:21:39,565 - INFO - 127.0.0.1 - - [02/Jan/2025 03:21:39] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:22:02,360 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:22:02,360 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:22:02,360 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:22:02,363 - INFO - 127.0.0.1 - - [02/Jan/2025 03:22:02] "GET / HTTP/1.1" 200 -
+2025-01-02 03:23:12,814 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:23:12,814 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:23:12,814 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:23:12,815 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:12] "GET / HTTP/1.1" 200 -
+2025-01-02 03:23:17,322 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:17] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:23:19,442 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:19] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:21,756 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:21] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:23,446 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:23] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:24,912 - WARNING - Blocked connection from 192.168.1.56:41096 (IP Blocked, Protocol: tcp)
+2025-01-02 03:23:25,758 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:25] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:27,192 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:27] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:23:29,298 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:29] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:31,608 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:31] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:33,298 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:33] "[33mGET /get_new_logs HTTP/1.1[0m" 404 -
+2025-01-02 03:23:40,082 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:23:40,082 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:23:40,272 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:23:40,272 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:23:41,739 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:41] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:23:44,358 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:44] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:46,047 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:46] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:48,321 - WARNING - Blocked connection from 192.168.1.56:41098 (IP Blocked, Protocol: tcp)
+2025-01-02 03:23:48,365 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:48] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:50,053 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:50] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:52,361 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:52] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:54,171 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:54] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:56,482 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:56] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:23:58,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:23:58] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:00,181 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:00] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:02,494 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:02] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:04,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:04] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:06,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:06] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:08,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:08] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:10,179 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:10] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:12,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:12] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:14,182 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:16,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:16] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:18,493 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:18] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:20,181 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:20] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:22,478 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:22] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:24,180 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:24] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:26,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:26] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:28,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:28] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:30,201 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:30] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:32,481 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:32] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:34,169 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:34] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:36,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:36] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:38,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:38] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:40,171 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:40] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:42,493 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:42] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:44,180 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:44] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:46,478 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:46] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:48,479 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:48] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:50,177 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:50] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:24:52,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:24:52] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:14,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:36,207 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:25:36,208 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:25:36,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:25:36,370 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:25:41,090 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:41] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:41,343 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:41] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:25:41,557 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:41] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:43,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:43] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:45,787 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:45] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:47,794 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:47] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:48,010 - WARNING - Blocked connection from 192.168.1.56:41118 (IP Blocked, Protocol: tcp)
+2025-01-02 03:25:49,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:49] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:51,789 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:51] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:54,177 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:54] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:56,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:56] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:25:58,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:25:58] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:00,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:00] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:02,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:02] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:04,169 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:04] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:06,482 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:06] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:08,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:08] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:10,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:10] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:12,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:12] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:14,205 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:16,477 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:16] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:18,487 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:18] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:20,177 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:20] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:22,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:22] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:24,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:24] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:26,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:26] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:28,481 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:28] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:30,182 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:30] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:32,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:32] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:34,178 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:34] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:36,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:36] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:38,494 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:38] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:40,178 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:40] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:42,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:42] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:44,180 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:44] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:46,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:46] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:48,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:48] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:50,181 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:50] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:26:52,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:26:52] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:27:14,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:27:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:28:14,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:28:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:06,702 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:29:06,702 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:29:06,702 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:29:06,706 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:06] "GET / HTTP/1.1" 200 -
+2025-01-02 03:29:14,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:31,053 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:31] "[33mPOST /add_rule HTTP/1.1[0m" 404 -
+2025-01-02 03:29:40,046 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:40] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:41,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:41] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:43,778 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:43] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:45,473 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:45] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:47,795 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:47] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:49,478 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:49] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:52,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:52] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:54,176 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:54] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:56,493 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:56] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:29:58,487 - INFO - 127.0.0.1 - - [02/Jan/2025 03:29:58] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:00,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:00] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:02,495 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:02] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:04,167 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:04] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:06,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:06] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:08,487 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:08] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:10,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:10] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:12,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:12] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:14,172 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:16,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:16] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:18,253 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:30:18,253 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:30:18,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:30:18,429 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:30:18,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:18] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:20,179 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:20] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:20,659 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:30:20,660 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:30:20,660 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:30:20,684 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-02 03:30:20,961 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-02 03:30:21,004 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-02 03:30:21,037 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:21] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=2ntZl3ewBNHt0Ouxdhkm HTTP/1.1" 200 -
+2025-01-02 03:30:21,345 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-02 03:30:21,674 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-02 03:30:22,177 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:22] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:24,489 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:24] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:26,174 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:26] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:28,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:28] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:30,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:30] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:32,495 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:32] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:34,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:34] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:36,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:36] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:38,490 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:38] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:40,169 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:40] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:42,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:42] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:44,178 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:44] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:46,482 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:46] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:30:48,478 - INFO - 127.0.0.1 - - [02/Jan/2025 03:30:48] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:31:14,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:31:39,161 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:31:39,162 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:31:39,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:31:39,341 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:31:44,591 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:31:44,591 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:31:44,591 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:31:44,606 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-02 03:31:44,884 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-02 03:31:44,935 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-02 03:31:44,947 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:44] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=jzfvL6yUkSmTTpl8Njsw HTTP/1.1" 200 -
+2025-01-02 03:31:45,250 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-02 03:31:45,579 - INFO - 127.0.0.1 - - [02/Jan/2025 03:31:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-02 03:32:14,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:32:49,894 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:32:49,895 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:32:50,066 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:32:50,066 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:32:52,496 - INFO - Blocked IPs: ['192.168.1.56']
+2025-01-02 03:32:52,497 - INFO - Blocked Ports: [80, 5000]
+2025-01-02 03:32:52,497 - INFO - Blocked Protocols: ['tcp']
+2025-01-02 03:32:52,513 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-02 03:32:52,792 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-02 03:32:52,842 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-02 03:32:52,855 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=yWyCnc3O0ok9kBcdDLNx HTTP/1.1" 200 -
+2025-01-02 03:32:53,169 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-02 03:32:53,496 - INFO - 127.0.0.1 - - [02/Jan/2025 03:32:53] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-02 03:33:14,487 - INFO - 127.0.0.1 - - [02/Jan/2025 03:33:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:34:14,494 - INFO - 127.0.0.1 - - [02/Jan/2025 03:34:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:34:46,515 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:34:46,516 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:34:46,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:34:46,718 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:34:49,153 - INFO - Blocked IPs: []
+2025-01-02 03:34:49,153 - INFO - Blocked Ports: []
+2025-01-02 03:34:49,153 - INFO - Blocked Protocols: []
+2025-01-02 03:34:49,153 - INFO - Rules: []
+2025-01-02 03:34:49,158 - INFO - 127.0.0.1 - - [02/Jan/2025 03:34:49] "GET / HTTP/1.1" 200 -
+2025-01-02 03:35:04,563 - INFO - Added rule: {'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}
+2025-01-02 03:35:04,564 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:04] "[32mPOST /add_rule HTTP/1.1[0m" 302 -
+2025-01-02 03:35:04,825 - INFO - Blocked IPs: []
+2025-01-02 03:35:04,825 - INFO - Blocked Ports: []
+2025-01-02 03:35:04,825 - INFO - Blocked Protocols: []
+2025-01-02 03:35:04,825 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:35:04,826 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:04] "GET / HTTP/1.1" 200 -
+2025-01-02 03:35:14,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:15,796 - INFO - Added port to blocked list: 80
+2025-01-02 03:35:15,796 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:15] "[32mPOST /add_port HTTP/1.1[0m" 302 -
+2025-01-02 03:35:16,114 - INFO - Blocked IPs: []
+2025-01-02 03:35:16,114 - INFO - Blocked Ports: [80]
+2025-01-02 03:35:16,114 - INFO - Blocked Protocols: []
+2025-01-02 03:35:16,114 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:35:16,115 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:16] "GET / HTTP/1.1" 200 -
+2025-01-02 03:35:17,011 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:17] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:17,787 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:17] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:19,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:19] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:21,789 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:21] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:23,481 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:23] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:26,494 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:26] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:28,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:28] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:30,175 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:30] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:32,489 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:32] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:34,182 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:34] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:36,490 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:36] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:38,497 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:38] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:40,168 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:40] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:42,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:42] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:44,183 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:44] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:46,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:46] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:48,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:48] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:50,172 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:50] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:52,496 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:52] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:54,181 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:54] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:56,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:56] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:35:58,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:35:58] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:00,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:00] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:02,487 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:02] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:04,174 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:04] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:06,494 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:06] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:08,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:08] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:10,183 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:10] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:12,498 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:12] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:14,176 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:16,496 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:16] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:18,506 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:18] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:20,206 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:20] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:22,487 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:22] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:24,174 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:24] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:36:39,338 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:36:39,339 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:36:39,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:36:39,507 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:36:41,561 - INFO - Blocked IPs: []
+2025-01-02 03:36:41,561 - INFO - Blocked Ports: [80]
+2025-01-02 03:36:41,561 - INFO - Blocked Protocols: []
+2025-01-02 03:36:41,561 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:36:41,566 - INFO - 127.0.0.1 - - [02/Jan/2025 03:36:41] "GET / HTTP/1.1" 200 -
+2025-01-02 03:37:14,495 - INFO - 127.0.0.1 - - [02/Jan/2025 03:37:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:38:14,478 - INFO - 127.0.0.1 - - [02/Jan/2025 03:38:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:38:55,888 - INFO - Blocked IPs: []
+2025-01-02 03:38:55,888 - INFO - Blocked Ports: [80]
+2025-01-02 03:38:55,888 - INFO - Blocked Protocols: []
+2025-01-02 03:38:55,888 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:38:55,892 - INFO - 127.0.0.1 - - [02/Jan/2025 03:38:55] "GET / HTTP/1.1" 200 -
+2025-01-02 03:39:14,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:39:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:40:14,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:40:18,463 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:18] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:40:19,003 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:19] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:40:20,703 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:20] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:40:23,010 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:23] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:40:23,276 - INFO - Blocked IPs: []
+2025-01-02 03:40:23,277 - INFO - Blocked Ports: [80]
+2025-01-02 03:40:23,277 - INFO - Blocked Protocols: []
+2025-01-02 03:40:23,277 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:40:23,278 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:23] "GET / HTTP/1.1" 200 -
+2025-01-02 03:40:35,972 - INFO - Blocked IPs: []
+2025-01-02 03:40:35,972 - INFO - Blocked Ports: [80]
+2025-01-02 03:40:35,972 - INFO - Blocked Protocols: []
+2025-01-02 03:40:35,972 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:40:35,977 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:35] "GET / HTTP/1.1" 200 -
+2025-01-02 03:40:41,920 - INFO - Blocked IPs: []
+2025-01-02 03:40:41,920 - INFO - Blocked Ports: [80]
+2025-01-02 03:40:41,920 - INFO - Blocked Protocols: []
+2025-01-02 03:40:41,920 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:40:41,920 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:41] "GET / HTTP/1.1" 200 -
+2025-01-02 03:40:46,064 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:40:46,065 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:40:46,426 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:40:46,426 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:40:47,728 - INFO - Blocked IPs: []
+2025-01-02 03:40:47,728 - INFO - Blocked Ports: [80]
+2025-01-02 03:40:47,728 - INFO - Blocked Protocols: []
+2025-01-02 03:40:47,728 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:40:47,733 - INFO - 127.0.0.1 - - [02/Jan/2025 03:40:47] "GET / HTTP/1.1" 200 -
+2025-01-02 03:41:14,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:41:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:42:14,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:42:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:42:18,361 - INFO - Blocked IPs: []
+2025-01-02 03:42:18,361 - INFO - Blocked Ports: [80]
+2025-01-02 03:42:18,361 - INFO - Blocked Protocols: []
+2025-01-02 03:42:18,361 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:42:18,367 - INFO - 127.0.0.1 - - [02/Jan/2025 03:42:18] "GET / HTTP/1.1" 200 -
+2025-01-02 03:43:14,490 - INFO - 127.0.0.1 - - [02/Jan/2025 03:43:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:44:14,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:44:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:44:20,703 - INFO - Blocked IPs: []
+2025-01-02 03:44:20,704 - INFO - Blocked Ports: [80]
+2025-01-02 03:44:20,704 - INFO - Blocked Protocols: []
+2025-01-02 03:44:20,704 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:44:20,710 - INFO - 127.0.0.1 - - [02/Jan/2025 03:44:20] "GET / HTTP/1.1" 200 -
+2025-01-02 03:44:22,926 - INFO - Blocked IPs: []
+2025-01-02 03:44:22,927 - INFO - Blocked Ports: [80]
+2025-01-02 03:44:22,927 - INFO - Blocked Protocols: []
+2025-01-02 03:44:22,927 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:44:22,927 - INFO - 127.0.0.1 - - [02/Jan/2025 03:44:22] "GET / HTTP/1.1" 200 -
+2025-01-02 03:44:23,763 - INFO - Blocked IPs: []
+2025-01-02 03:44:23,763 - INFO - Blocked Ports: [80]
+2025-01-02 03:44:23,763 - INFO - Blocked Protocols: []
+2025-01-02 03:44:23,763 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:44:23,763 - INFO - 127.0.0.1 - - [02/Jan/2025 03:44:23] "GET / HTTP/1.1" 200 -
+2025-01-02 03:44:28,195 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:44:28,196 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:44:28,363 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:44:28,363 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:44:29,931 - INFO - Blocked IPs: []
+2025-01-02 03:44:29,931 - INFO - Blocked Ports: [80]
+2025-01-02 03:44:29,931 - INFO - Blocked Protocols: []
+2025-01-02 03:44:29,931 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:44:29,936 - INFO - 127.0.0.1 - - [02/Jan/2025 03:44:29] "GET / HTTP/1.1" 200 -
+2025-01-02 03:44:30,826 - INFO - Blocked IPs: []
+2025-01-02 03:44:30,826 - INFO - Blocked Ports: [80]
+2025-01-02 03:44:30,827 - INFO - Blocked Protocols: []
+2025-01-02 03:44:30,827 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:44:30,827 - INFO - 127.0.0.1 - - [02/Jan/2025 03:44:30] "GET / HTTP/1.1" 200 -
+2025-01-02 03:45:23,324 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:45:23,324 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:45:23,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:45:23,354 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:45:27,528 - INFO - Blocked IPs: []
+2025-01-02 03:45:27,528 - INFO - Blocked Ports: [80]
+2025-01-02 03:45:27,528 - INFO - Blocked Protocols: []
+2025-01-02 03:45:27,528 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:45:27,533 - INFO - 127.0.0.1 - - [02/Jan/2025 03:45:27] "GET / HTTP/1.1" 200 -
+2025-01-02 03:45:38,903 - INFO - Blocked IPs: []
+2025-01-02 03:45:38,903 - INFO - Blocked Ports: [80]
+2025-01-02 03:45:38,903 - INFO - Blocked Protocols: []
+2025-01-02 03:45:38,903 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:45:38,903 - INFO - 127.0.0.1 - - [02/Jan/2025 03:45:38] "GET / HTTP/1.1" 200 -
+2025-01-02 03:46:14,500 - INFO - 127.0.0.1 - - [02/Jan/2025 03:46:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:46:42,151 - INFO - Blocked IPs: []
+2025-01-02 03:46:42,151 - INFO - Blocked Ports: [80]
+2025-01-02 03:46:42,151 - INFO - Blocked Protocols: []
+2025-01-02 03:46:42,151 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:46:42,155 - INFO - 127.0.0.1 - - [02/Jan/2025 03:46:42] "GET / HTTP/1.1" 200 -
+2025-01-02 03:46:47,997 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:46:47,998 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:46:48,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:46:48,035 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:46:49,479 - INFO - Blocked IPs: []
+2025-01-02 03:46:49,479 - INFO - Blocked Ports: [80]
+2025-01-02 03:46:49,479 - INFO - Blocked Protocols: []
+2025-01-02 03:46:49,479 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:46:49,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:46:49] "GET / HTTP/1.1" 200 -
+2025-01-02 03:46:58,067 - INFO - TCP Server listening on 0.0.0.0:12345
+2025-01-02 03:46:58,068 - INFO - UDP Server listening on 0.0.0.0:12345
+2025-01-02 03:46:58,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.70:5000
+2025-01-02 03:46:58,237 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-02 03:47:14,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:47:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:48:14,485 - INFO - 127.0.0.1 - - [02/Jan/2025 03:48:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:49:07,209 - INFO - Blocked IPs: []
+2025-01-02 03:49:07,209 - INFO - Blocked Ports: [80]
+2025-01-02 03:49:07,209 - INFO - Blocked Protocols: []
+2025-01-02 03:49:07,209 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:49:07,214 - INFO - 127.0.0.1 - - [02/Jan/2025 03:49:07] "GET / HTTP/1.1" 200 -
+2025-01-02 03:49:14,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:49:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:53:09,875 - INFO - Blocked IPs: []
+2025-01-02 03:53:09,875 - INFO - Blocked Ports: [80]
+2025-01-02 03:53:09,875 - INFO - Blocked Protocols: []
+2025-01-02 03:53:09,875 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:53:09,879 - INFO - 127.0.0.1 - - [02/Jan/2025 03:53:09] "GET / HTTP/1.1" 200 -
+2025-01-02 03:55:28,571 - INFO - Blocked IPs: []
+2025-01-02 03:55:28,571 - INFO - Blocked Ports: [80]
+2025-01-02 03:55:28,571 - INFO - Blocked Protocols: []
+2025-01-02 03:55:28,571 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:55:28,575 - INFO - 127.0.0.1 - - [02/Jan/2025 03:55:28] "GET / HTTP/1.1" 200 -
+2025-01-02 03:57:10,147 - INFO - Blocked IPs: []
+2025-01-02 03:57:10,147 - INFO - Blocked Ports: [80]
+2025-01-02 03:57:10,147 - INFO - Blocked Protocols: []
+2025-01-02 03:57:10,147 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:57:10,151 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:10] "GET / HTTP/1.1" 200 -
+2025-01-02 03:57:23,235 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:23] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:57:23,709 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:23] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:25,416 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:25] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:28,482 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:28] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:30,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:30] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:32,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:32] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:34,229 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:34] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:36,490 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:36] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:38,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:38] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:40,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:40] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:42,183 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:42] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:43,724 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:43] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:45,407 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:45] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:47,258 - INFO - Blocked IPs: []
+2025-01-02 03:57:47,258 - INFO - Blocked Ports: [80]
+2025-01-02 03:57:47,258 - INFO - Blocked Protocols: []
+2025-01-02 03:57:47,258 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:57:47,262 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:47] "GET / HTTP/1.1" 200 -
+2025-01-02 03:57:47,991 - INFO - Blocked IPs: []
+2025-01-02 03:57:47,992 - INFO - Blocked Ports: [80]
+2025-01-02 03:57:47,992 - INFO - Blocked Protocols: []
+2025-01-02 03:57:47,992 - INFO - Rules: [{'ip': '192.168.1.56', 'port': 80, 'protocol': 'tcp'}]
+2025-01-02 03:57:47,993 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:47] "GET / HTTP/1.1" 200 -
+2025-01-02 03:57:54,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:54] "GET /logs HTTP/1.1" 200 -
+2025-01-02 03:57:54,755 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:54] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:56,727 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:56] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:57:59,033 - INFO - 127.0.0.1 - - [02/Jan/2025 03:57:59] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:00,719 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:00] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:03,484 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:03] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:05,176 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:05] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:07,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:07] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:09,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:09] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:11,481 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:11] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:13,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:13] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:15,488 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:15] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:17,168 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:17] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:19,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:19] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:21,170 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:21] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:23,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:23] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:25,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:25] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:27,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:27] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:29,178 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:29] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:31,491 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:31] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:33,183 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:33] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:35,486 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:35] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:37,175 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:37] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:39,492 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:39] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:41,177 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:41] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:43,480 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:43] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:45,178 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:45] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:47,479 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:47] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:49,180 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:49] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:51,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:51] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:53,174 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:53] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:55,471 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:55] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:57,182 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:57] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:58:59,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:58:59] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:59:01,173 - INFO - 127.0.0.1 - - [02/Jan/2025 03:59:01] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 03:59:14,483 - INFO - 127.0.0.1 - - [02/Jan/2025 03:59:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 04:00:14,481 - INFO - 127.0.0.1 - - [02/Jan/2025 04:00:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 04:01:14,494 - INFO - 127.0.0.1 - - [02/Jan/2025 04:01:14] "GET /get_new_logs HTTP/1.1" 200 -
+2025-01-02 04:02:14,483 - INFO - 127.0.0.1 - - [02/Jan/2025 04:02:14] "GET /get_new_logs HTTP/1.1" 200 -

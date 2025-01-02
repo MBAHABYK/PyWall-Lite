@@ -1,0 +1,14 @@
+{
+    "blocked_ips": [],
+    "blocked_ports": [
+        80
+    ],
+    "blocked_protocols": [],
+    "rules": [
+        {
+            "ip": "192.168.1.56",
+            "port": 80,
+            "protocol": "tcp"
+        }
+    ]
+}
