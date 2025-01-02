@@ -1,65 +1,66 @@
-# PyWall-Lite
-Firewall software with Python.
+Absolutely! Here's an English-language guide on how to use PyWall Lite, covering all its features and functionalities:
 
-PyWall Lite: Simple and Customizable Network Security Solution
+PyWall Lite: A Simple and Customizable Firewall - User Guide
 
-PyWall Lite is a simple, customizable and open source firewall application developed for those who want to learn and implement network security. Created using the Python programming language, this project allows you to understand and experience basic network security concepts in a practical way. PyWall Lite can be managed with both the web interface and the command line interface (CLI).
+PyWall Lite is an open-source, customizable firewall application designed for those looking to learn and implement basic network security. Built with Python, this project allows you to understand fundamental network security concepts and apply them practically. PyWall Lite can be managed through both a web interface and a command-line interface (CLI).
 
 Key Features:
 
-IP ​​Address Blocking:
+IP Address Blocking:
 
-Blocks all connections from specific IP addresses.
+Blocks all connections originating from specified IP addresses.
 
-You can easily add or remove IP addresses via the web interface or CLI.
+Easily add or remove IP addresses via the web interface or CLI.
 
 Port Blocking:
 
-Blocks all connections to specific ports.
+Blocks all connections made to specified ports.
 
-You can easily add or remove port numbers via the web interface or CLI.
+Easily add or remove port numbers via the web interface or CLI.
 
 Protocol Blocking:
 
-Blocks all connections using specific network protocols such as TCP and UDP.
+Blocks all connections using specified network protocols such as TCP or UDP.
 
-You can easily add or remove protocols via the web interface or CLI.
+Easily add or remove protocols via the web interface or CLI.
 
 Rule Management:
 
-Allows you to define more complex and customized blocking rules.
+Allows you to define more complex and custom blocking rules.
 
-You can make more flexible matches for IP addresses using Regex.
+Enables flexible matching for IP addresses using regular expressions (regex).
 
-You can add or remove rules via web interface or CLI.
+Add and remove rules via the web interface or CLI.
 
 Real-time Log Monitoring:
 
-Allows you to monitor network activities and blockings in real time in the web interface.
+Provides live tracking of network activities and blockages in the web interface.
 
-Logs are displayed in an automatically updated box and always scroll to the latest record.
+Logs are displayed in an auto-updating box that always shows the latest entries.
 
-DoS/DDoS Protection:
+Basic DoS/DDoS Protection:
 
-Automatically blocks when there are too many connection attempts from a specific IP address within a certain period of time.
+Automatically blocks an IP address if it makes too many connection attempts within a specified time.
 
-This simple DoS/DDoS protection tries to prevent overload.
+This protection mechanism helps prevent basic denial-of-service attacks.
 
 Logging:
 
-Records all network activities and blocking decisions in a file called pywall.log.
+Records all network activity and blocking decisions in a file named pywall.log.
 
-Log records include timestamps, event levels and additional information (IP, port, protocol).
+Log entries include timestamps, event levels, and extra details such as IP, port, and protocol.
 
-Command Line (CLI) Support
+Command-Line Interface (CLI) Support:
 
-Allows you to add or remove IP, port, protocol and rules from the command line, see the blocked list and view log files.
+Offers the ability to manage IP, port, protocol, and rule settings directly from the command line.
 
-Open Source: Allows everyone to develop and contribute by publishing codes on platforms like GitHub.
+Allows viewing blocked lists and log files through the command line.
 
-Easy to Use: Thanks to its simple and user-friendly interface, you can easily use and manage PyWall Lite.
+Open Source: The code is publicly available for anyone to review, modify, and contribute to.
 
-Customizable: Thanks to its open source structure, you can easily customize it according to your own needs.
+Ease of Use: Provides a simple and user-friendly interface that's easy to manage.
+
+Customizable: Due to its open-source nature, it can be customized according to your own specific needs.
 
 Technical Details:
 
@@ -69,34 +70,94 @@ Network Communication: socket and asyncio libraries
 
 Web Interface: Flask framework
 
-Command Line Interface: argparse library
+Command-Line Interface: argparse library
 
-Regex Support: Create more flexible rules with the re library
+Regex Support: re library used to define complex rules using regular expressions.
 
-Why PyWall Lite?
+Why Use PyWall Lite?
 
-For Learning Purposes: It is an ideal project to learn topics such as network security, firewalls and network programming.
+Educational: It's an ideal project for learning about network security, firewalls, and network programming.
 
-Simple and Effective: Despite its simplicity, it provides a level of protection that will meet your basic security needs.
+Simple and Effective: Provides a basic level of protection that meets most basic security requirements.
 
-Customizable: Thanks to its open source structure, you can customize and develop it according to your needs.
+Customizable: Open-source architecture allows you to adapt and enhance the project based on your needs.
 
-Flexible Management: It can be easily managed with both the web interface and the command line.
+Flexible Management: It can be easily managed through both a web interface and a command-line interface.
 
 Limitations:
 
-Basic Blocking: Only has basic blocking capabilities. It does not have the features that more advanced firewalls have.
+Basic Blocking: Only provides basic blocking functionalities. Lacks features such as stateful inspection or deep packet inspection.
 
-Does Not Check Outgoing Connections: Does not check outgoing connections.
+No Outbound Control: Doesn't control outbound connections.
 
-No Application Layer Protection: Cannot inspect application layer protocols such as HTTP/HTTPS.
+No Application Layer Protection: Can't inspect or filter application layer protocols like HTTP/HTTPS.
 
-Basic DDoS Protection: Only protects against simple DoS attacks.
+Basic DDoS Protection: Only offers basic DoS protection and may not be effective against sophisticated DDoS attacks.
 
-Not Enough Alone: ​​Must be used in conjunction with more comprehensive solutions for real security.
+Not a Complete Solution: For serious security situations, it's necessary to use more comprehensive solutions.
+
+Getting Started:
+
+Download and Installation:
+
+Ensure you have Python installed on your system.
+
+Clone or download the project files to a local directory.
+
+Web Interface Management:
+
+Navigate to the project directory using your terminal or command prompt.
+
+Run python web_app.py to start both the web application and the PyWall Lite server.
+
+Open a web browser and go to http://localhost:5000 or http://192.168.1.70:5000 (or whatever your IP address is).
+
+Command Line Management:
+
+Navigate to the project directory using your terminal or command prompt.
+
+Use the following commands to manage PyWall Lite:
+
+To see help use: python pywall_lite.py -h
+
+To block an IP address use: python pywall_lite.py block_ip <ip_address>
+
+To unblock an IP address use: python pywall_lite.py unblock_ip <ip_address>
+
+To block a port use: python pywall_lite.py block_port <port_number>
+
+To unblock a port use: python pywall_lite.py unblock_port <port_number>
+
+To block a protocol use: python pywall_lite.py block_protocol <protocol>
+
+To unblock a protocol use: python pywall_lite.py unblock_protocol <protocol>
+
+To add a new rule use: python pywall_lite.py block_rule --ip "<ip_regex>" --port <port_number> --protocol <protocol>
+
+To remove a rule use: python pywall_lite.py unblock_rule --ip "<ip_regex>" --port <port_number> --protocol <protocol>
+
+To see the current blocked list use: python pywall_lite.py list
+
+To view logs use: python pywall_lite.py logs
+
+Testing and Verification:
+
+To verify blocking rules, try accessing a blocked IP address or port through telnet, netcat, or a web browser.
+
+Check the pywall.log file to track all network activities.
+
+Verify settings you've made from the web interface or the command line appear in the log.
+
+Important Notes:
+
+Remember that this application will only protect traffic that is intended for the machine it's installed on.
+
+PyWall Lite is a great learning project, but should not be considered a fully production-ready firewall solution.
+
+Use PyWall Lite in conjunction with a fully supported OS firewall or professional firewall solution.
 
 Conclusion:
 
-PyWall Lite is a great starting point for anyone who wants to learn basic network security concepts and implement a simple security solution. You can control network traffic and increase your security either via the web interface or the command line. The open source nature of the project allows you to adapt and develop the project according to your own needs.
+PyWall Lite is an excellent educational and basic security tool that provides a flexible way to control network traffic. It can be managed through a user-friendly web interface or the command line. This tool can be used to understand fundamental network concepts and to gain practical experience with firewalls.
 
-I hope this introductory article clarified all the features and potential of the PyWall Lite project. If you have any further questions or requests, please feel free to ask.
+If you have any further questions or need more assistance, feel free to ask!
